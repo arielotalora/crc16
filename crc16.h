@@ -1,3 +1,12 @@
+/*
+ * MIT License
+ * Copyright (c) 2024 Ariel Otalora Ramirez
+ * Author: Ariel Otalora Ramirez <ariel.otalora.ramirez@gmail.com>
+ * CRC-16/CCITT-FALSE C Library
+ * Implementation of the CRC-16/CCITT-FALSE checksum calculation.
+ * Repository: https://github.com/arielotalora/crc16
+ */
+ 
 #ifndef __CRC16_H__
 #define __CRC16_H__
 
