@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "crc16.h"
+
+uint8_t data[] = {0x61, 0x72, 0x69, 0x65, 0x6c, 0x6f, 0x74, 0x61, 0x6c, 0x6f, 0x72, 0x61};
+
+int main(void) {
+
+  uint16_t crc;
+  crc = crc16(data, sizeof(data));
+  printf("crc16: 0x%04X\n", crc);
+  
+  return 0;
+}
+
