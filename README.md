@@ -4,7 +4,7 @@ Calcula el crc16 de un array por el método bit a bit o método tabla de consult
 
 ## Ejemplo main.c
 
-```
+```c
 #include <stdio.h>
 #include "crc16.h"
 
@@ -22,7 +22,7 @@ int main(void) {
 
 ## Método bit a bit:
 
-```
+```bash
 >> make all METHOD=-DCRC16_METHOD_BIT
 >> stat -f %zKB ./main
 10312KB
@@ -32,7 +32,7 @@ crc16: 0x28F7
 
 ## Método tabla de consulta:
 
-```
+```bash
 >> make all METHOD=-DCRC16_METHOD_TAB
 >> stat -f %zKB ./main
 10784KB
