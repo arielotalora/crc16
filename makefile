@@ -1,6 +1,6 @@
 
 TARGET = main
-CFLAGS = -Wall -Wextra -Werror -std=c99 -pedantic $(METHOD)
+CFLAGS = $(METHOD)
 SRCS = main.c crc16.c 
 OBJS = $(SRCS:.c=.o)
 
