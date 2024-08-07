@@ -10,8 +10,8 @@
 #ifndef __CRC16_H__
 #define __CRC16_H__
 
-#include <stdlib.h> 
-#include <unistd.h> 
+#include <stdint.h> 
+#include <stddef.h>
 
 //#define CRC16_METHOD_TAB
 //#define CRC16_METHOD_BIT
